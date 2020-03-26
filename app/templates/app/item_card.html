@@ -1,0 +1,73 @@
+<div class="row">
+    <div class="col-3">
+        <p>name</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.name }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>no</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.no }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>category</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.get_category_display }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>gauge</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.gauge }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>release_condition</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.release_condition }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>range</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.range }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>continuous_power</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.continuous_power }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>fixed_num</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.fixed_num }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>登録日</p>
+    </div>
+    <div class="col-9">
+        <p>{{ item.created_at|date:"Y/m/d G:i:s" }}</p>
+    </div>
+</div>
+
